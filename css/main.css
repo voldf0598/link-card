@@ -1,6 +1,26 @@
 html {
   box-sizing:border-box;
+  font-family: "Dosis", sans-serif;
+  line-height:1.5;
+  background-color: #dcd4cd;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.link-card {
+  display: inline-block;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  margin: 0 0 1rem;
+  padding: .4em .75em .5em;
+  border-color: #9a816d;
+}
+
+h2 {
+  color: #512200;
+  font-family: "Dosis", bold;
+  text-decoration: none
+}
