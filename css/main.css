@@ -14,11 +14,13 @@ body {
 
 .link-card {
   display: inline-block;
+  text-align: left;
+  max-width: inherit;
   border-width: 3px;
   border-style: solid;
-  border-radius: 8px;
-  margin: 0 0 1rem;
-  padding: .6em .83em .5em;
+  border-radius: 3px;
+  margin: 0;
+  padding: 1rem;
   border-color: #9a816d;
   text-decoration: none;
   background-color: #dcd4cd;
@@ -33,9 +35,10 @@ body {
   font-family: Dosis, bold;
   text-decoration: none;
   margin: 0;
-  padding: .2em .75em .1em;
+  padding: .25em .75em .1em;
   padding-left: 0;
   font-size: 1.5rem;
+  padding-bottom: 0;
 }
 
 p {
@@ -45,7 +48,7 @@ p {
   font-family: Georgia, sans-serif;
   border-bottom: 1px solid #785439;
   margin-bottom: .5rem;
-  padding-bottom: 1rem;
+  padding-bottom: .8rem;
   line-height: 1.5;
 }
 
@@ -60,7 +63,7 @@ dl {
 
 dt {
   display: inline-block;
-  width: 6em;
+  min-width: 6em;
   color: #512200;
 }
 
@@ -76,12 +79,12 @@ dd {
 .btn {
   text-align: center;
   display: block;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   background-color: #785439;
-  font-family: Dosis, bold;
-  font-size: 1.125em;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
   color: #f0eee8;
   border-radius: 8px;
-  padding: .4em .69em .5em;
+  padding: 10px;
 }
